@@ -18,9 +18,8 @@ My thought is that IF a subtitle is synced more than +-5 seconds there is someth
 This script automates the blacklisting of downloaded subtitles in Bazarr.  
 It checks:
 
-- ✅ Subtitle-to-video sync accuracy (based on Bazarr logs)
-- ✅ Detected subtitle language vs. expected language
-- ✅ Automatically blacklists out-of-sync (based on limit set) subtitles and start a search for new. (configurable acceptable amount)
+- ✅ Subtitle-to-video sync accuracy, blocklist and search if above set limit.
+- ✅ Detected subtitle language vs. expected language, blocklist if not matching.
 
 
 ⚠️ NOTE: This will search for a new subtitle until the subtitles run out/you hit your predefind minimum score. So if your providers find 50 subtitles above your minimum score, this script will try everyone until it finds one +-5 seconds.
