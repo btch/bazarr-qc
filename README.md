@@ -4,15 +4,15 @@ I had issues with subtitles being out of sync so I created (with 99% help from C
 
 My thought is that IF a subtitle is synced more than +-5 seconds there is something wrong with it and I would rather blacklist it and search for a new one.
 
-*After syncing 5000 subtitles my experience is:*
+>*After syncing 5000 subtitles my experience is:*
 
-  - *Almost all files under +-5 sec will produce a good sync*
+  >>- *ALMOST all files under +-5 sec will produce a good sync*
 
-  - *SOME files above +-5 seconds will produce a good sync.*
+  >>- *SOME files above +-5 seconds will produce a good sync.*
   
-  - *ALMOST all files +- 20 seconds will produce a bad sync.* 
+  >>- *ALMOST all files +- 20 seconds will produce a bad sync.* 
   
-*That is why I set my limit at +-5 seconds. (you can set this in configuration)*
+>*That is why I set my limit at +-5 seconds. (you can set this in configuration)*
 
 
 This script automates the blacklisting of downloaded subtitles in Bazarr.  
