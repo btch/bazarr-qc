@@ -4,7 +4,7 @@ I had issues with subtitles being out of sync so I created (with 99% help from C
 
 My logic is that IF a subtitle is synced more than ±5 seconds there is something wrong with it and I would rather blacklist it and search for a new one.
 
-*After syncing 5000 subtitles, my experience is:*
+*After syncing ~2500 subtitles, my experience is:*
 
 -   *ALMOST all files under ±5 sec will produce a good sync.*
 -   *SOME files above ±5 seconds will produce a good sync.*
