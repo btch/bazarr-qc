@@ -11,8 +11,8 @@ from guess_language import guess_language
 
 # === CONFIGURATION ===
 ALLOWED_OFFSET_SECONDS = 5.0                 # Max allowed offset in seconds (+/-)
-API_KEY = "fe112c1bc78ded85b92431cae1b0dc57" # API key to Bazarr
-API_HOST = "192.168.1.94"                    # IP
+API_KEY = "FILL_IN_YOUR_API_KEY_TO_BAZARR" # API key to Bazarr
+API_HOST = "FILL_IN_YOUR_IP"                    # IP
 API_PORT = "6767"                            # Bazarr port
 DB_PATH = "/config/db/bazarr.db"             # Path to Bazarr's database file
 ENABLE_LOGGING = True                        # Set False to disable logging to log-file.log
