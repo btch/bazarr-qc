@@ -36,6 +36,23 @@ When Bazarr downloads a subtitle, `postprocess.sh` is executed via the post-proc
 
 ---
 
+## 🔧 Setup
+
+In Bazarr:
+Enable: Automatic Subtitles Audio Synchronization
+-  Series Score Threshold For Audio Sync: 100
+-  Movies Score Threshold For Audio Sync: 100
+
+Enable: Custom Post-Processing
+
+Settings / Custom Post-Processing
+ - Series Score Threshold For Post-Processing: 100
+ - Movies Score Threshold For Post-Processing: 100
+ - Command: /config/postprocess.sh "{{episode_id}}" "{{series_id}}" "{{provider}}" "{{subtitle_id}}" "{{subtitles_language_code2}}" "{{subtitles}}"
+
+---
+
+
 ## 🔧 Configuration
 
 Edit the top of `extract_sync_offsets.py` to adjust:
@@ -57,8 +74,3 @@ ENABLE_LANGUAGE_DETECTION = True     # Detect language using guess_language
 - `extract_sync_offsets.py`: Main Python script that performs offset-extraction, blacklisting and language checks.
 - `postprocess.sh`: Bash wrapper that passes arguments from Bazarr and triggers the Python script.
 
----
-
-## Setup
-
-1
