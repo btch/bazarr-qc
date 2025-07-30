@@ -12,6 +12,7 @@ My logic is that IF a subtitle is synced more than ±5 seconds there is somethin
 
 *That is why I set my limit at ±5 seconds (you can set this in the config).*
 
+![Offset distribution chart](images/Histogram.png)
 
 
 This script automates the blacklisting of downloaded subtitles in Bazarr.  
