@@ -42,9 +42,8 @@ API_PORT = "6767"
 DB_PATH = "/config/db/bazarr.db" #IF it does not find the .db, play around with this.
 
 ENABLE_LOGGING = True                 # Log actions to file
-ENABLE_LANGUAGE_DETECTION = True     # Detect language using guess_language```
-
-
+ENABLE_LANGUAGE_DETECTION = True     # Detect language using guess_language
+```
 ---
 
 ## 📂 Files
