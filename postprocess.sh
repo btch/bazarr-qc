@@ -24,7 +24,7 @@ if [[ "$provider" != "embeddedsubtitles" ]]; then
     export subtitles_language
     export subtitles
 
-    python3 /config/config/extract_sync_offsets.py
+    python3 /config/extract_sync_offsets.py
 else
     echo "Skipping post-processing. Subtitle provider is embeddedsubtitles"
 fi
