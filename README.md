@@ -8,7 +8,7 @@ After syncing 5000 subtitles my experience is:
 
   - SOME files above +-5 seconds will produce a good sync 
   
-  - almost ALL files +- 20 seconds will produce a bad sync. 
+  - ALMOST all files +- 20 seconds will produce a bad sync. 
   
 That is why I set my limit at +-5 seconds. (you can set this in configuration)
 
