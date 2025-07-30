@@ -41,7 +41,9 @@ When Bazarr downloads a subtitle, `postprocess.sh` is executed via the post-proc
 
 ## 🔧 Setup
 
-In Bazarr:
+Place all files in /bazarr/config/
+
+In Bazarr settings:
 
 __Enable: Automatic Subtitles Audio Synchronization__
 -  Series Score Threshold For Audio Sync: 100
