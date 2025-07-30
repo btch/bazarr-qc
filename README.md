@@ -23,6 +23,8 @@ It checks:
 
 
 ⚠️ NOTE: This will search for a new subtitle until the subtitles run out/you hit your predefind minimum score. So if your providers find 50 subtitles above your minimum score, this script will try everyone until it finds one +-5 seconds.
+
+⚠️ NOTE: This will sync all subtitles you download (except embedded subtitles since they have a score of 100%)
  
 ---
 
