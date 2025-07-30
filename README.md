@@ -6,7 +6,7 @@ My thought is that IF a subtitle is synced more than +-5 seconds there is someth
 
 After syncing 5000 subtitles my experience is: 
 
-  - SOME files above +-5 seconds will produce a good sync 
+  - SOME files above +-5 seconds will produce a good sync.
   
   - ALMOST all files +- 20 seconds will produce a bad sync. 
   
@@ -58,3 +58,7 @@ ENABLE_LANGUAGE_DETECTION = True     # Detect language using guess_language
 - `postprocess.sh`: Bash wrapper that passes arguments from Bazarr and triggers the Python script.
 
 ---
+
+## Setup
+
+1
