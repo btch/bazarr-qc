@@ -13,7 +13,7 @@ It checks:
 
 - ✅ Subtitle-to-video sync accuracy (based on Bazarr logs)
 - ✅ Detected subtitle language vs. expected language
-- ✅ Automatically blacklists out-of-sync subtitles and start a search for new. (configurable acceptable amount)
+- ✅ Automatically blacklists out-of-sync (based on limit set) subtitles and start a search for new. (configurable acceptable amount)
   
 ---
 
