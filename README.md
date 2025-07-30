@@ -6,6 +6,8 @@ My thought is that IF a subtitle is synced more than +-5 seconds there is someth
 
 *After syncing 5000 subtitles my experience is:*
 
+  - *Almost all files under +-5 sec will produce a good sync*
+
   - *SOME files above +-5 seconds will produce a good sync.*
   
   - *ALMOST all files +- 20 seconds will produce a bad sync.* 
