@@ -36,7 +36,7 @@ When Bazarr downloads a subtitle, `postprocess.sh` is executed via the post-proc
 3. The Python script:
    - Reads Bazarr's SQLite DB for offset info.
    - Detects language of downloaded file (optional) and checks against bazarr if its correct.
-   - If an offset of more than +-5 seconds is found, blacklists the subtitle using Bazarr's API and start a new search.
+   - If an offset of more than ±5 seconds is found, blacklists the subtitle using Bazarr's API and start a new search.
 
 ---
 
