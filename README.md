@@ -1,8 +1,8 @@
 # Subtitle QC based on offset value from audio-sync
 
-I had issues with subtitles being out of sync so I created (with 99% help from ChatGPT) this script that will auto-blacklist any subtitle that has been synced by more than +- 5 seconds.
+I had issues with subtitles being out of sync so I created (with 99% help from ChatGPT) this script that will auto-blacklist any subtitle that has been synced by more than ±5 seconds.
 
-My thought is that IF a subtitle is synced more than +-5 seconds there is something wrong with it and I would rather blacklist it and search for a new one.
+My logic is that IF a subtitle is synced more than ±5 seconds there is something wrong with it and I would rather blacklist it and search for a new one.
 
 *After syncing 5000 subtitles, my experience is:*
 
