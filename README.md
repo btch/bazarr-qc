@@ -1,17 +1,17 @@
-# Subtitle Offset & Language Validator for Bazarr
+# Subtitle QC based on offset value from audio-sync
 
-This script automates the post-processing of downloaded subtitles in Bazarr.  
+This script automates the blacklisting of downloaded subtitles in Bazarr.  
 It checks:
 
 - ✅ Subtitle-to-video sync accuracy (based on Bazarr logs)
 - ✅ Detected subtitle language vs. expected language
-- ❌ Automatically blacklists mismatched or out-of-sync subtitles via Bazarr’s API
+- ✅ Automatically blacklists out-of-sync subtitles and start a search for new. (configurable acceptable amount)
 
 ---
 
 ## 📂 Files
 
-- `extract_sync_offsets.py`: Main Python script that performs offset and language checks.
+- `extract_sync_offsets.py`: Main Python script that performs offset-extraction, blacklisting and language checks.
 - `postprocess.sh`: Bash wrapper that passes arguments from Bazarr and triggers the Python script.
 
 ---
@@ -25,7 +25,7 @@ When Bazarr downloads a subtitle, `postprocess.sh` is executed via the post-proc
 3. The Python script:
    - Reads Bazarr's SQLite DB for offset info.
    - Detects subtitle language (optional).
-   - If issues are found, blacklists the subtitle using Bazarr's API.
+   - If an offset of more than +-5 seconds is found, blacklists the subtitle using Bazarr's API.
 
 ---
 
@@ -36,7 +36,7 @@ Edit the top of `extract_sync_offsets.py` to adjust:
 ```python
 ALLOWED_OFFSET_SECONDS = 5.0  # Max allowed offset (+/-) before blacklist
 API_KEY = "your_api_key_here"
-API_HOST = "192.168.1.94"
+API_HOST = "your_ip"
 API_PORT = "6767"
 DB_PATH = "/config/db/bazarr.db"
 
