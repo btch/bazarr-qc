@@ -43,6 +43,7 @@ When Bazarr downloads a subtitle, `postprocess.sh` is executed via the post-proc
 
 Place all files in /bazarr/config/
 >postprocess.sh
+
 >extract_sync_offsets.py
 
 In Bazarr settings:
