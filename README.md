@@ -82,3 +82,8 @@ ENABLE_LANGUAGE_DETECTION = True     # Detect language using guess_language
 - `extract_sync_offsets.py`: Main Python script that performs offset-extraction, blacklisting and language checks.
 - `postprocess.sh`: Bash wrapper that passes arguments from Bazarr and triggers the Python script.
 
+---
+
+## Trash-guides
+
+I know trash-guides recommends not syncing subs with a high score (might put your good synced subs offset), in my experience I have not had an issue with this.
