@@ -21,10 +21,10 @@ from guess_language import guess_language
 
 # === CONFIGURATION ===
 ALLOWED_OFFSET_SECONDS = 5.0  # Max allowed offset in seconds (+/-)
-API_KEY = "fe112c1bc78ded85b92431cae1b0dc57"  # API key to Bazarr
-API_HOST = "192.168.1.94"  # IP
+API_KEY = "YOUR_BAZARR_API_KEY"  # API key to Bazarr
+API_HOST = "YOUR_IP"  # IP
 API_PORT = "6767"  # Bazarr port
-DB_PATH = "/config/db/bazarr.db"  # Path to Bazarr's database file
+DB_PATH = "/db/bazarr.db"  # Path to Bazarr's database file
 ENABLE_LOGGING = True  # Set False to disable logging to log-file.log
 ENABLE_LANGUAGE_DETECTION = True  # Set False to disable subtitle language check
 
