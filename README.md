@@ -53,8 +53,8 @@ __Enable: Automatic Subtitles Audio Synchronization__
 -  Movies Score Threshold For Audio Sync: 100
 
 __Enable: Custom Post-Processing__
- - Series Score Threshold For Post-Processing: 100
- - Movies Score Threshold For Post-Processing: 100
+ - Series Score Threshold For Post-Processing: Disabled
+ - Movies Score Threshold For Post-Processing: Disabled
  - Command: /config/bazarr-qc.py "{{episode_id}}" "{{series_id}}" "{{provider}}" "{{subtitle_id}}" "{{subtitles_language_code2}}" "{{subtitles}}"
 
 ---
